@@ -21,7 +21,7 @@ instance/
 
 # --- Database ---
 # Uncomment below if you don't want to push your local DB
-# pharmacare.db
+  pharmacare.db
 *.db-shm
 *.db-wal
 

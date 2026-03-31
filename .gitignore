@@ -1,0 +1,60 @@
+# ============================================================
+#  PharmaCare Pro — .gitignore
+# ============================================================
+
+# --- Python Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Flask / Instance Folder ---
+instance/
+*.cfg
+
+# --- Database ---
+# Uncomment below if you don't want to push your local DB
+# pharmacare.db
+*.db-shm
+*.db-wal
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+secrets.py
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS & Editor Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Node (if you ever add frontend tooling) ---
+node_modules/
+npm-debug.log*
+
+# --- Distribution / Build ---
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# --- Pytest / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
